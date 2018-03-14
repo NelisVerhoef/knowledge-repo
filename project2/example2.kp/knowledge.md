@@ -12,7 +12,7 @@ tldr: This is short description of the content and findings of the post.
 thumbnail: images/output_5_1.png
 ---
 *NOTE: In the TL,DR, optimize for **clarity** and **comprehensiveness**. The goal is to convey the post with the least amount of friction, especially since ipython/beakers require much more scrolling than blog posts. Make the reader get a correct understanding of the post's takeaway, and the points supporting that takeaway without having to strain through paragraphs and tons of prose. Bullet points are great here, but are up to you. Try to avoid academic paper style abstracts.*
-
+-TEstTestTEstTEst
  - Having a specific title will help avoid having someone browse posts and only finding vague, similar sounding titles
  - Having an itemized, short, and clear tl,dr will help readers understand your content
  - Setting the reader's context with a motivation section makes someone understand how to judge your choices
