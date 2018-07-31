@@ -10,7 +10,7 @@ import datetime
 # not provided, it is assumed in these contexts to be
 # 'localhost:7000'. Be sure to specify this before deploying
 # into production.
-SERVER_NAME = '0.0.0.0'
+SERVER_NAME = None
 
 # The knowledge repository uses the secret key to sign user
 # sessions. If not specified, a unique secret key will be
@@ -18,7 +18,7 @@ SERVER_NAME = '0.0.0.0'
 # in a multi-server environment, or you want sessions
 # to persist accross server restarts, set this to something
 # static.
-SECRET_KEY = 'Test Secret Key'
+SECRET_KEY = None
 
 # ---------------------------------------------------
 # Debug configuration
@@ -52,8 +52,8 @@ DB_AUTO_UPGRADE = False
 # `KnowledgeAuthProvider` and add either the instance or identifier
 # used for that class below.
 # By default, the knowledge repo offers:
-# ['debug', 'oauth2', 'bitbucket', 'github', 'github']
-AUTH_PROVIDERS = []#['github','google']
+# ['debug', 'oauth2', 'bitbucket', 'github', 'google']
+AUTH_PROVIDERS = []
 
 # If you are going to use a OAuth provider, you will need to specify client ids
 # and private tokens. This can be done by instantiating instances of
