@@ -53,7 +53,7 @@ DB_AUTO_UPGRADE = False
 # used for that class below.
 # By default, the knowledge repo offers:
 # ['debug', 'oauth2', 'bitbucket', 'github', 'github']
-AUTH_PROVIDERS = ['github','google']
+AUTH_PROVIDERS = []#['github','google']
 
 # If you are going to use a OAuth provider, you will need to specify client ids
 # and private tokens. This can be done by instantiating instances of
