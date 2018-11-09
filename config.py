@@ -10,7 +10,7 @@ import datetime
 # not provided, it is assumed in these contexts to be
 # 'localhost:7000'. Be sure to specify this before deploying
 # into production.
-SERVER_NAME = 'http\://ec2-18-207-180-116.compute-1.amazonaws.com:7000'
+SERVER_NAME = '0.0.0.0:7000'
 
 # The knowledge repository uses the secret key to sign user
 # sessions. If not specified, a unique secret key will be
