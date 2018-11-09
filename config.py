@@ -10,7 +10,7 @@ import datetime
 # not provided, it is assumed in these contexts to be
 # 'localhost:7000'. Be sure to specify this before deploying
 # into production.
-SERVER_NAME = 'http://35.175.55.71:7000'
+SERVER_NAME = '35.175.55.71:7000'
 
 # The knowledge repository uses the secret key to sign user
 # sessions. If not specified, a unique secret key will be
